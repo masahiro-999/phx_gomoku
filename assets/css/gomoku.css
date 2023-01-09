@@ -1,0 +1,24 @@
+.cell {
+    border: 1px solid black;
+    background: rgb(91, 184, 37);
+}
+.turn-white:hover {
+    background: rgb(104, 231, 30);
+    background-position: center;
+    background-image: url("../images/white.svg");
+}
+
+.turn-black:hover {
+    background: rgb(104, 231, 30);
+    background-position: center;
+    background-image: url("../images/black.svg");
+}
+
+.cell.white {
+    background-position: center;
+    background-image: url("../images/white.svg");
+}
+
+.cell.black {
+    background-image: url("../images/black.svg");
+}

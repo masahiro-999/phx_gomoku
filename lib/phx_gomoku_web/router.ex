@@ -17,8 +17,7 @@ defmodule PhxGomokuWeb.Router do
   scope "/", PhxGomokuWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
-    get "/hello", HelloController, :index
+    live "/", GomokuLive
   end
 
   # Other scopes may use custom stacks.
